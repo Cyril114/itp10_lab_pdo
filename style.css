@@ -1,0 +1,365 @@
+/* =========================
+   GENERAL PAGE
+========================= */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 40px;
+    color: #333;
+}
+
+h2 {
+    color: #4a6cf7;
+    margin-top: 0;
+}
+
+
+/* =========================
+   INDEX / STUDENT TABLE
+   DO NOT CHANGE INDEX LAYOUT
+========================= */
+
+.student-table {
+    width: 95%;
+    margin: 30px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.student-table h2 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #4a6cf7;
+    color: white;
+}
+
+th {
+    padding: 14px;
+    text-align: left;
+}
+
+td {
+    padding: 12px 14px;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+tbody tr:hover {
+    background-color: #eef2ff;
+}
+
+
+/* =========================
+   CREATE / EDIT FORM
+   CENTERED USING CSS ONLY
+========================= */
+
+.form-container {
+    width: 600px;
+    max-width: 90%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+
+    /* Center vertically */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+/* =========================
+   FORM ELEMENTS
+========================= */
+
+.form-container p {
+    margin-bottom: 18px;
+}
+
+.form-container label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.form-container input,
+.form-container select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.form-container input:focus,
+.form-container select:focus {
+    outline: none;
+    border-color: #4a6cf7;
+}
+
+
+/* =========================
+   STUDENT DETAILS
+   CENTERED USING CSS ONLY
+========================= */
+
+.student-details {
+    width: 600px;
+    max-width: 90%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+
+    /* Center vertically */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.student-details h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.student-details p {
+    padding: 12px;
+    margin: 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.student-details p:hover {
+    background-color: #f8f9fa;
+}
+
+.student-details strong {
+    display: inline-block;
+    width: 150px;
+}
+
+
+/* =========================
+   GENERAL BUTTON
+========================= */
+
+button {
+    background-color: #4a6cf7;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #3451c6;
+}
+
+
+/* =========================
+   ACTION BUTTONS
+========================= */
+
+.action-button {
+    display: inline-block;
+    padding: 7px 12px;
+    margin-right: 4px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+.view-button {
+    background-color: #28a745;
+}
+
+.view-button:hover {
+    background-color: #218838;
+}
+
+.edit-button {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.edit-button:hover {
+    background-color: #e0a800;
+}
+
+.delete-button {
+    background-color: #dc3545;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
+
+
+/* =========================
+   CREATE BUTTON
+========================= */
+
+.create-button {
+    display: inline-block;
+    background-color: #4a6cf7;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.create-button:hover {
+    background-color: #3451c6;
+}
+
+
+/* =========================
+   CANCEL BUTTON
+========================= */
+
+.cancel-button {
+    display: inline-block;
+    background-color: #6c757d;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.cancel-button:hover {
+    background-color: #545b62;
+}
+
+
+/* =========================
+   INDEX HEADER
+========================= */
+
+.table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.table-header h2 {
+    margin: 0;
+}
+
+
+/* =========================
+   ERROR / SUCCESS
+========================= */
+
+.error {
+    color: #dc3545;
+    font-size: 14px;
+}
+
+.success {
+    color: #28a745;
+    background-color: #e9f7ef;
+    padding: 10px;
+    border-radius: 6px;
+}
+/* =========================
+   CREATE BUTTON
+========================= */
+
+.create-button {
+    display: inline-block;
+    background-color: #4a6cf7;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.create-button:hover {
+    background-color: #3451c6;
+}
+
+
+/* =========================
+   VIEW / EDIT / DELETE BUTTONS
+========================= */
+
+.action-button {
+    display: inline-block;
+    padding: 7px 12px;
+    margin-right: 5px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+
+/* VIEW */
+
+.view-button {
+    background-color: #28a745;
+}
+
+.view-button:hover {
+    background-color: #218838;
+}
+
+
+/* EDIT */
+
+.edit-button {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.edit-button:hover {
+    background-color: #e0a800;
+}
+
+
+/* DELETE */
+
+.delete-button {
+    background-color: #dc3545;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
